@@ -113,5 +113,6 @@
 作为比亚迪半导体的核心代理商，霸晶芯科拥有专业的 FAE 团队。如果你在选型、方案设计中遇到任何技术难题，欢迎通过以下渠道与我们取得联系：
 
 * **项目负责人 (Project Maintainer)**：@Felix-rookie
+* **联系邮箱（Email）**：feng.xing@szbjxk.com
 * **企业官网 (Official Website)**：[深圳市霸晶芯科实业发展有限公司](http://你的官网链接地址)
 * **技术支持群/微信交流圈 (Tech Support Group)**：*(欢迎提交 Issue 或留下您的联系方式，我们的技术团队会第一时间邀请您进入核心技术交流群)*
