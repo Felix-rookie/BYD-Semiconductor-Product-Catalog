@@ -1,4 +1,4 @@
-# BYD Semiconductor Product Catalog (比亚迪半导体产品目录开源社区)
+# BYD Semiconductor Product Catalog
 
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Felix-rookie/BYD-Semiconductor-Product-Catalog/blob/main/CONTRIBUTING.md)
