@@ -91,3 +91,27 @@
 │   └── IPM_Module_Template.md     # IPM 智能功率模块模板 (IPM Module Template)
 ├── LICENSE                        # 开源协议 (CC-BY-4.0 License)
 └── README.md                      # 社区主页导航 (Community Homepage)
+```
+
+---
+
+## 🤝 如何参与贡献 (Contributing)
+
+无论是修补了一个参数错漏，还是帮社区搬运、翻译了新的芯片型号，霸晶芯科和整个社区都无比欢迎你的加入！
+
+### 快速开始 (Quick Start)
+1. **查阅模板**：进入 `templates/` 目录，查看对应器件的标准化 Markdown 编写规范。
+2. **认领型号**：在 Issue 列表中查看“型号认领区”，避免多人重复转换同一款芯片。
+3. **提交 PR**：转换完成后，按照对应的分类目录提交 Pull Request，霸晶芯科的技术团队会第一时间进行 Review 并合并。
+
+> 💡 **效率工具推荐 (Recommended Tools)**：建议使用 MinerU 或 Marker 等开源工具对原始 PDF 进行高效的表格识别，再利用大模型进行格式校验，可极大提升数据迁移效率。
+
+---
+
+## 👥 联系我们与技术支持 (Contact Us & Support)
+
+作为比亚迪半导体的核心代理商，霸晶芯科拥有专业的 FAE 团队。如果你在选型、方案设计中遇到任何技术难题，欢迎通过以下渠道与我们取得联系：
+
+* **项目负责人 (Project Maintainer)**：@Felix-rookie
+* **企业官网 (Official Website)**：[深圳市霸晶芯科实业发展有限公司](http://你的官网链接地址)
+* **技术支持群/微信交流圈 (Tech Support Group)**：*(欢迎提交 Issue 或留下您的联系方式，我们的技术团队会第一时间邀请您进入核心技术交流群)*
