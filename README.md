@@ -32,6 +32,7 @@
 
 - [ ] **01_功率半导体 (Power Semiconductors)** <-- 🎯 *当前主攻方向*
   - [ ] IGBT 单管 (IGBT Discretes)
+  - [ ] IPM 模块 （Intelligent Power Modules）
   - [ ] IGBT 模块 (IGBT Modules)
   - [ ] SiC 器件 (SiC Devices)
 - [ ] **02_智能控制 IC (Smart Control ICs)**
@@ -49,7 +50,7 @@
 ```text
 ├── 01_Power_Semiconductors/       # 功率半导体
 │   ├── IGBT_Discretes/            # 👈 起步方向：IGBT单管
-│   │   ├── BG40N120A.md           # 示例：具体型号产品页面
+│   │   ├── BGNE40Q120SD.md        # 示例：具体型号产品页面
 │   │   └── README.md              # 该分类下的子索引
 │   └── SiC_MOSFETs/
 ├── 02_Smart_Control_ICs/          # 智能控制IC
