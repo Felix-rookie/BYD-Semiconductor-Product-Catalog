@@ -14,9 +14,9 @@
 ### 🌟 核心特性 (Features)
 * **尖端技术**：1200V 平面栅场终止技术 (Planar Field-Stop Technology)
 * **超低损耗**：极低的开关损耗 (Low switching losses)
-* **温漂特性**：饱和导通电压 ($V_{CE(sat)}$) 具有正温度系数，极利于并联拓展
-* **续流卓越**：反并联二极管的正向电压 ($V_F$) 同样具备正温度系数
-* **短路强韧**：具备高达 $10\,\mu\text{s}$ 的短路耐受承受能力
+* **温漂特性**：饱和导通电压 (V<sub>CE(sat)</sub>) 具有正温度系数，极利于并联拓展
+* **续流卓越**：反并联二极管的正向电压 (V<sub>F</sub>) 同样具备正温度系数
+* **短路强韧**：具备高达 10 μs 的短路耐受承受能力
 
 ### 🚗 典型应用 (Applications)
 * 电动汽车空调压缩机 (Electric Automotive Air-Condition Compressor)
@@ -27,7 +27,7 @@
 
 ## 📊 关键参数快查 (Quick Reference Table)
 
-| 型号 (Type) | 集电极-发射极电压 ($V_{CE}$) | 集电极电流 ($I_C$) | 典型饱和电压 ($V_{CE(sat)}$) | 最高结温 ($T_{jmax}$) | 印丝标记 (Marking) | 封装形式 (Package) |
+| 型号 (Type) | 集电极-发射极电压 (V<sub>CE</sub>) | 集电极电流 (I<sub>C</sub>) | 典型饱和电压 (V<sub>CE(sat)</sub>) | 最高结温 (T<sub>jmax</sub>) | 印丝标记 (Marking) | 封装形式 (Package) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **BGNE40Q120SD-A** | 1200 V | 40 A | 2.2 V | 175 °C | 40Q120SD | TO-247-3L |
 
@@ -35,25 +35,25 @@
 
 ## ⚡ 最大额定参数 (Maximum Rated Values)
 
-下表规定了器件工作或测试时绝不可超过的极限参数（如无特殊说明，$T_j \ge 25^\circ\text{C}$）：
+下表规定了器件工作或测试时绝不可超过的极限参数（如无特殊说明，T<sub>j</sub> ≥ 25 °C）：
 
 | 参数名称 (Parameter) | 符号 (Symbol) | 额定值 (Value) | 单位 (Unit) |
 | :--- | :---: | :---: | :---: |
-| 集电极-发射极电压 | $V_{CE}$ | 1200 | V |
-| 连续集电极电流 ($T_C = 25^\circ\text{C}$) | $I_C$ | 80 | A |
-| 连续集电极电流 ($T_C = 100^\circ\text{C}$) | $I_C$ | 40 | A |
-| 集电极脉冲电流 (脉宽受 $T_{jmax}$ 限制) | $I_{Cpuls}$ | 160 | A |
-| 二极管正向直流电流 ($T_C = 25^\circ\text{C}$) | $I_F$ | 80 | A |
-| 二极管正向直流电流 ($T_C = 100^\circ\text{C}$) | $I_F$ | 40 | A |
-| 二极管脉冲电流 | $I_{Fpuls}$ | 160 | A |
-| 栅极-发射极电压 | $V_{GE}$ | $\pm 20$ | V |
-| 短路耐受时间 ($V_{GE}=15\text{V}, V_{CC}\le800\text{V}, T_j\le150^\circ\text{C}$) | $t_{sc}$ | 10 | $\mu\text{s}$ |
-| 总耗散功率 ($T_C = 25^\circ\text{C}$) | $P_{tot}$ | 428 | W |
-| 最高结温 | $T_{jmax}$ | 175 | °C |
-| 工作结温 | $T_{jop}$ | -40 ... +150 | °C |
-| 储存温度 | $T_{stg}$ | -55 ... +150 | °C |
-| 焊接温度 (距管壳 1.6mm 处限时 10s) | $T_{st}$ | 260 | °C |
-| 锁装力矩 (M3 螺丝) | $M_d$ | 0.6 | Nm |
+| 集电极-发射极电压 | V<sub>CE</sub> | 1200 | V |
+| 连续集电极电流 (T<sub>C</sub> = 25 °C) | I<sub>C</sub> | 80 | A |
+| 连续集电极电流 (T<sub>C</sub> = 100 °C) | I<sub>C</sub> | 40 | A |
+| 集电极脉冲电流 (脉宽受 T<sub>jmax</sub> 限制) | I<sub>Cpuls</sub> | 160 | A |
+| 二极管正向直流电流 (T<sub>C</sub> = 25 °C) | I<sub>F</sub> | 80 | A |
+| 二极管正向直流电流 (T<sub>C</sub> = 100 °C) | I<sub>F</sub> | 40 | A |
+| 二极管脉冲电流 | I<sub>Fpuls</sub> | 160 | A |
+| 栅极-发射极电压 | V<sub>GE</sub> | ± 20 | V |
+| 短路耐受时间 (V<sub>GE</sub>=15 V, V<sub>CC</sub>≤800 V, T<sub>j</sub>≤150 °C) | t<sub>sc</sub> | 10 | μs |
+| 总耗散功率 (T<sub>C</sub> = 25 °C) | P<sub>tot</sub> | 428 | W |
+| 最高结温 | T<sub>jmax</sub> | 175 | °C |
+| 工作结温 | T<sub>jop</sub> | -40 ... +150 | °C |
+| 储存温度 | T<sub>stg</sub> | -55 ... +150 | °C |
+| 焊接温度 (距管壳 1.6mm 处限时 10s) | T<sub>st</sub> | 260 | °C |
+| 锁装力矩 (M3 螺丝) | M<sub>d</sub> | 0.6 | Nm |
 
 ---
 
@@ -61,76 +61,76 @@
 
 | 参数名称 (Parameter) | 符号 (Symbol) | 典型值 (Value) | 单位 (Unit) |
 | :--- | :---: | :---: | :---: |
-| IGBT 结-管壳热阻 | $R_{th(j-c)}$ | 0.35 | °C/W |
-| 二极管结-管壳热阻 | $R_{th(j-c)}$ | 0.58 | °C/W |
-| 结-环境热阻 | $R_{th(j-a)}$ | 40 | °C/W |
+| IGBT 结-管壳热阻 | R<sub>th(j-c)</sub> | 0.35 | °C/W |
+| 二极管结-管壳热阻 | R<sub>th(j-c)</sub> | 0.58 | °C/W |
+| 结-环境热阻 | R<sub>th(j-a)</sub> | 40 | °C/W |
 
 ---
 
 ## 🔌 电学特性 (Electrical Characteristics)
 
-### 1. 静态特性 (Static Characteristic, $T_j = 25^\circ\text{C}$ 除非特别声明)
+### 1. 静态特性 (Static Characteristic, T<sub>j</sub> = 25 °C 除非特别声明)
 
 | 参数名称 (Parameter) | 符号 (Symbol) | 测试条件 (Conditions) | 最小值 | 典型值 | 最大值 | 单位 |
 | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
-| 集电极-发射极击穿电压 | $V_{(BR)CES}$ | $V_{GE}=0\text{V}, I_C=1\text{mA}$ | 1200 | - | - | V |
-| 集电极-发射极饱和电压 | $V_{CE(sat)}$ | $V_{GE}=15\text{V}, I_C=40\text{A}, T_j=25^\circ\text{C}$<br>$V_{GE}=15\text{V}, I_C=40\text{A}, T_j=150^\circ\text{C}$ | - | 2.2<br>2.4 | 2.5<br>- | V |
-| 二极管正向导通电压 | $V_F$ | $V_{GE}=0\text{V}, I_F=40\text{A}, T_j=25^\circ\text{C}$<br>$V_{GE}=0\text{V}, I_F=40\text{A}, T_j=150^\circ\text{C}$ | - | 2.45<br>2.4 | 2.85<br>- | V |
-| 栅极-发射极阈值电压 | $V_{GE(th)}$ | $I_C=1.6\text{mA}, V_{CE}=V_{GE}$ | 5.0 | 5.8 | 7.0 | V |
-| 集电极-发射极截止电流 | $I_{CES}$ | $V_{CE}=1200\text{V}, V_{GE}=0\text{V}$ | - | - | 100 | $\mu\text{A}$ |
-| 栅极-发射极漏电流 | $I_{GES}$ | $V_{CE}=0\text{V}, V_{GE}=\pm20\text{V}$ | -200 | - | 200 | nA |
+| 集电极-发射极击穿电压 | V<sub>(BR)CES</sub> | V<sub>GE</sub>=0 V, I<sub>C</sub>=1 mA | 1200 | - | - | V |
+| 集电极-发射极饱和电压 | V<sub>CE(sat)</sub> | V<sub>GE</sub>=15 V, I<sub>C</sub>=40 A, T<sub>j</sub>=25 °C<br>V<sub>GE</sub>=15 V, I<sub>C</sub>=40 A, T<sub>j</sub>=150 °C | - | 2.2<br>2.4 | 2.5<br>- | V |
+| 二极管正向导通电压 | V<sub>F</sub> | V<sub>GE</sub>=0 V, I<sub>F</sub>=40 A, T<sub>j</sub>=25 °C<br>V<sub>GE</sub>=0 V, I<sub>F</sub>=40 A, T<sub>j</sub>=150 °C | - | 2.45<br>2.4 | 2.85<br>- | V |
+| 栅极-发射极阈值电压 | V<sub>GE(th)</sub> | I<sub>C</sub>=1.6 mA, V<sub>CE</sub>=V<sub>GE</sub> | 5.0 | 5.8 | 7.0 | V |
+| 集电极-发射极截止电流 | I<sub>CES</sub> | V<sub>CE</sub>=1200 V, V<sub>GE</sub>=0 V | - | - | 100 | μA |
+| 栅极-发射极漏电流 | I<sub>GES</sub> | V<sub>CE</sub>=0 V, V<sub>GE</sub>=±20 V | -200 | - | 200 | nA |
 
 ### 2. 动态特性 (Dynamic Characteristic)
 
 | 参数名称 (Parameter) | 符号 (Symbol) | 测试条件 (Conditions) | 典型值 (Typ.) | 单位 (Unit) |
 | :--- | :---: | :--- | :---: | :---: |
-| 输入电容 | $C_{ies}$ | $V_{CE}=25\text{V}, V_{GE}=0\text{V}, f=1\text{MHz}$ | 3825 | pF |
-| 输出电容 | $C_{oes}$ | $V_{CE}=25\text{V}, V_{GE}=0\text{V}, f=1\text{MHz}$ | 205 | pF |
-| 反向传输电容 | $C_{res}$ | $V_{CE}=25\text{V}, V_{GE}=0\text{V}, f=1\text{MHz}$ | 110 | pF |
-| 门极总电量 | $Q_G$ | $V_{CC}=600\text{V}, I_C=40\text{A}, V_{GE}=15\text{V}$ | 142 | nC |
-| 内部发射极电感 | $L_E$ | - | 13 | nH |
-| 短路电流 | $I_{C(sc)}$ | $V_{CC}=800\text{V}, V_{GE}=15\text{V}, T_j=150^\circ\text{C}$ | 200 | A |
-| 反偏安全工作区 | RBSOA | $V_{CC}=800\text{V}, V_{GE}=15\text{V}, T_j\le150^\circ\text{C}$ | 80 | A |
+| 输入电容 | C<sub>ies</sub> | V<sub>CE</sub>=25 V, V<sub>GE</sub>=0 V, f=1 MHz | 3825 | pF |
+| 输出电容 | C<sub>oes</sub> | V<sub>CE</sub>=25 V, V<sub>GE</sub>=0 V, f=1 MHz | 205 | pF |
+| 反向传输电容 | C<sub>res</sub> | V<sub>CE</sub>=25 V, V<sub>GE</sub>=0 V, f=1 MHz | 110 | pF |
+| 门极总电量 | Q<sub>G</sub> | V<sub>CC</sub>=600 V, I<sub>C</sub>=40 A, V<sub>GE</sub>=15 V | 142 | nC |
+| 内部发射极电感 | L<sub>E</sub> | - | 13 | nH |
+| 短路电流 | I<sub>C(sc)</sub> | V<sub>CC</sub>=800 V, V<sub>GE</sub>=15 V, T<sub>j</sub>=150 °C | 200 | A |
+| 反偏安全工作区 | RBSOA | V<sub>CC</sub>=800 V, V<sub>GE</sub>=15 V, T<sub>j</sub>≤150 °C | 80 | A |
 
 ---
 
 ## 🔄 开关特性 (Switching Characteristics)
 
-### 1. $T_j = 25^\circ\text{C}$ 时开关特性（感性负载）
-测试条件：$V_{CC}=600\text{V}, I_C=40\text{A}, V_{GE}=-7.5/15\text{V}, R_G=10\,\Omega$
+### 1. T<sub>j</sub> = 25 °C 时开关特性（感性负载）
+测试条件：V<sub>CC</sub>=600 V, I<sub>C</sub>=40 A, V<sub>GE</sub>=-7.5/15 V, R<sub>G</sub>=10 Ω
 
 | 参数分类 | 参数名称 (Parameter) | 符号 (Symbol) | 典型值 (Typ.) | 单位 (Unit) |
 | :--- | :--- | :---: | :---: | :---: |
-| **IGBT 特性** | 开通延迟时间 (Turn-on delay time) | $t_{d(on)}$ | 50 | ns |
-| | 上升时间 (Rise time) | $t_r$ | 90 | ns |
-| | 关断延迟时间 (Turn-off delay time) | $t_{d(off)}$ | 130 | ns |
-| | 下降时间 (Fall time) | $t_f$ | 90 | ns |
-| | 开通损耗 (Turn-on energy)* | $E_{on}$ | 2.9 | mJ |
-| | 关断损耗 (Turn-off energy) | $E_{off}$ | 1.65 | mJ |
-| | 总开关损耗 (Total switching energy) | $E_{ts}$ | 4.55 | mJ |
-| **反并联二极管** | 反向恢复时间 (Reverse recovery time) | $t_{rr}$ | 415 | ns |
-| | 恢复电荷 (Recovered charge) | $Q_{rr}$ | 2.4 | $\mu\text{C}$ |
-| | 反向恢复峰值电流 (Peak reverse recovery current) | $I_{RM}$ | 13 | A |
-| | 反向恢复损耗 (Reverse recovered energy) | $E_{rec}$ | 0.9 | mJ |
+| **IGBT 特性** | 开通延迟时间 (Turn-on delay time) | t<sub>d(on)</sub> | 50 | ns |
+| | 上升时间 (Rise time) | t<sub>r</sub> | 90 | ns |
+| | 关断延迟时间 (Turn-off delay time) | t<sub>d(off)</sub> | 130 | ns |
+| | 下降时间 (Fall time) | t<sub>f</sub> | 90 | ns |
+| | 开通损耗 (Turn-on energy)* | E<sub>on</sub> | 2.9 | mJ |
+| | 关断损耗 (Turn-off energy) | E<sub>off</sub> | 1.65 | mJ |
+| | 总开关损耗 (Total switching energy) | E<sub>ts</sub> | 4.55 | mJ |
+| **反并联二极管** | 反向恢复时间 (Reverse recovery time) | t<sub>rr</sub> | 415 | ns |
+| | 恢复电荷 (Recovered charge) | Q<sub>rr</sub> | 2.4 | μC |
+| | 反向恢复峰值电流 (Peak reverse recovery current) | I<sub>RM</sub> | 13 | A |
+| | 反向恢复损耗 (Reverse recovered energy) | E<sub>rec</sub> | 0.9 | mJ |
 
-*\*注：开通损耗 $E_{on}$ 与总损耗 $E_{ts}$ 包含二极管反向恢复引起的额外损耗。*
+*\*注：开通损耗 E<sub>on</sub> 与总损耗 E<sub>ts</sub> 包含二极管反向恢复引起的额外损耗。*
 
-### 2. $T_j = 150^\circ\text{C}$ 时开关特性（感性负载）
-测试条件：$V_{CC}=600\text{V}, I_C=40\text{A}, V_{GE}=-7.5/15\text{V}, R_G=10\,\Omega$
+### 2. T<sub>j</sub> = 150 °C 时开关特性（感性负载）
+测试条件：V<sub>CC</sub>=600 V, I<sub>C</sub>=40 A, V<sub>GE</sub>=-7.5/15 V, R<sub>G</sub>=10 Ω
 
 | 参数分类 | 参数名称 (Parameter) | 符号 (Symbol) | 典型值 (Typ.) | 单位 (Unit) |
 | :--- | :--- | :---: | :---: | :---: |
-| **IGBT 特性** | 开通延迟时间 (Turn-on delay time) | $t_{d(on)}$ | 48 | ns |
-| | 上升时间 (Rise time) | $t_r$ | 94 | ns |
-| | 关断延迟时间 (Turn-off delay time) | $t_{d(off)}$ | 177 | ns |
-| | 下降时间 (Fall time) | $t_f$ | 155 | ns |
-| | 开通损耗 (Turn-on energy)* | $E_{on}$ | 5.7 | mJ |
-| | 关断损耗 (Turn-off energy) | $E_{off}$ | 2.6 | mJ |
-| | 总开关损耗 (Total switching energy) | $E_{ts}$ | 8.3 | mJ |
-| **反并联二极管** | 反向恢复时间 (Reverse recovery time) | $t_{rr}$ | 635 | ns |
-| | 恢复电荷 (Recovered charge) | $Q_{rr}$ | 5.1 | $\mu\text{C}$ |
-| | 反向恢复峰值电流 (Peak reverse recovery current) | $I_{RM}$ | 15 | A |
-| | 反向恢复损耗 (Reverse recovered energy) | $E_{rec}$ | 1.88 | mJ |
+| **IGBT 特性** | 开通延迟时间 (Turn-on delay time) | t<sub>d(on)</sub> | 48 | ns |
+| | 上升时间 (Rise time) | t<sub>r</sub> | 94 | ns |
+| | 关断延迟时间 (Turn-off delay time) | t<sub>d(off)</sub> | 177 | ns |
+| | 下降时间 (Fall time) | t<sub>f</sub> | 155 | ns |
+| | 开通损耗 (Turn-on energy)* | E<sub>on</sub> | 5.7 | mJ |
+| | 关断损耗 (Turn-off energy) | E<sub>off</sub> | 2.6 | mJ |
+| | 总开关损耗 (Total switching energy) | E<sub>ts</sub> | 8.3 | mJ |
+| **反并联二极管** | 反向恢复时间 (Reverse recovery time) | t<sub>rr</sub> | 635 | ns |
+| | 恢复电荷 (Recovered charge) | Q<sub>rr</sub> | 5.1 | μC |
+| | 反向恢复峰值电流 (Peak reverse recovery current) | I<sub>RM</sub> | 15 | A |
+| | 反向恢复损耗 (Reverse recovered energy) | E<sub>rec</sub> | 1.88 | mJ |
 
 ---
 
