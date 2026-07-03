@@ -62,33 +62,36 @@
 为了方便跨团队协作与多型号并发迁移，仓库采用**严谨的二级分类**与**模板化设计**：
 
 ```text
-├── 01_Power_Semiconductors/       # 1. 功率半导体分类 (Power Semiconductors)
-│   ├── IPM_Discretes_Si/          # IPM及单管-Si (IPMs & Discrete Devices - Si)
-│   ├── Industrial_Modules_Si/     # 工业模块-Si (Industrial Modules - Si)
-│   ├── Automotive_Modules_Si/     # 车用模块-Si (Automotive Modules - Si)
-│   ├── IPM_Discretes_SiC/         # IPM及单管-SiC (IPMs & Discrete Devices - SiC)
-│   └── Automotive_Modules_SiC/    # 车用模块-SiC (Automotive Modules - SiC)
-├── 02_Smart_Control_ICs/          # 2. 智能控制 IC 分类 (Smart Control ICs)
-│   ├── Automotive_MCU/            # 车规MCU (Automotive MCUs)
-│   ├── Industrial_MCU/            # 工业MCU (Industrial MCUs)
-│   ├── Home_Appliance_MCU/        # 家电MCU (Home Appliance MCUs)
-│   ├── Smart_Lock_MCU/            # 智能锁控MCU (Smart Lock MCUs)
-│   ├── Power_ICs/                 # 电源IC (Power Management ICs)
-│   └── Battery_Management_ICs/    # 电池管理IC (Battery Management ICs)
-├── 03_Smart_Sensors/              # 3. 智能传感器分类 (Smart Sensors)
-│   ├── Current_Voltage_Sensors/   # 电流电压传感器 (Current & Voltage Sensors)
-│   ├── Angle_Position_Sensors/    # 角度位置传感器 (Angle & Position Sensors)
-│   ├── Temp_Pressure_Sensors/     # 温度压力传感器 (Temperature & Pressure Sensors)
-│   ├── CMOS_Image_Sensors/        # CMOS图像传感器 (CMOS Image Sensors)
-│   └── Biometrics/                # 生物识别 (Biometrics)
-├── 04_Optoelectronics/            # 4. 光电半导体分类 (Optoelectronics)
-│   ├── Smart_Automotive/          # 智能车载 (Smart Automotive Optoelectronics)
-│   ├── Image_Modules/             # 影像模组 (Camera / Image Modules)
-│   ├── LED/                       # LED (Light Emitting Diodes)
-│   └── Structural_Components/     # 结构件 (Structural Components)
-├── templates/                     # 统一的数据转化标准 Markdown 模板 (Standardized Markdown Templates)
-│   ├── IGBT_Discrete_Template.md  # 硅基单管转换模板 (Si IGBT Discrete Template)
-│   └── IPM_Module_Template.md     # IPM 智能功率模块模板 (IPM Module Template)
+├── 01_功率半导体_Power_Semiconductors/       # 1. 功率半导体分类 (Power Semiconductors)
+│   ├── IPM及单管-Si_IPM_Discretes_Si/        # IPM及单管-Si (IPMs & Discrete Devices - Si)
+│   │   ├── IGBT单管-Si_IGBT_Discretes_Si/    # 硅基 IGBT 单管 (Si IGBT Discretes)
+│   │   └── 智能功率模块-Si_IPM_Si/           # 硅基 IPM 智能功率模块 (Si IPM)
+│   ├── 工业模块-Si_Industrial_Modules_Si/    # 工业模块-Si (Industrial Modules - Si)
+│   ├── 车用模块-Si_Automotive_Modules_Si/    # 车用模块-Si (Automotive Modules - Si)
+│   ├── IPM及单管-SiC_IPM_Discretes_SiC/      # IPM及单管-SiC (IPMs & Discrete Devices - SiC)
+│   └── 车用模块-SiC_Automotive_Modules_SiC/  # 车用模块-SiC (Automotive Modules - SiC)
+├── 02_智能控制IC_Smart_Control_ICs/          # 2. 智能控制 IC 分类 (Smart Control ICs)
+│   ├── 车规MCU_Automotive_MCU/               # 车规MCU (Automotive MCUs)
+│   ├── 工业MCU_Industrial_MCU/               # 工业MCU (Industrial MCUs)
+│   ├── 家电MCU_Home_Appliance_MCU/           # 家电MCU (Home Appliance MCUs)
+│   ├── 智能锁控MCU_Smart_Lock_MCU/           # 智能锁控MCU (Smart Lock MCUs)
+│   ├── 电源IC_Power_ICs/                     # 电源IC (Power Management ICs)
+│   └── 电池管理IC_Battery_Management_ICs/    # 电池管理IC (Battery Management ICs)
+├── 03_智能传感器_Smart_Sensors/              # 3. 智能传感器分类 (Smart Sensors)
+│   ├── 电流电压传感器_Current_Voltage_Sensors/   # 电流电压传感器 (Current & Voltage Sensors)
+│   ├── 角度位置传感器_Angle_Position_Sensors/    # 角度位置传感器 (Angle & Position Sensors)
+│   ├── 温度压力传感器_Temp_Pressure_Sensors/     # 温度压力传感器 (Temperature & Pressure Sensors)
+│   ├── CMOS图像传感器_CMOS_Image_Sensors/        # CMOS图像传感器 (CMOS Image Sensors)
+│   └── 生物识别_Biometrics/                      # 生物识别 (Biometrics)
+├── 04_光电半导体_Optoelectronics/            # 4. 光电半导体分类 (Optoelectronics)
+│   ├── 智能车载_Smart_Automotive/            # 智能车载 (Smart Automotive Optoelectronics)
+│   ├── 影像模组_Image_Modules/               # 影像模组 (Camera / Image Modules)
+│   ├── 发光二极管_LED/                       # LED (Light Emitting Diodes)
+│   └── 结构件_Structural_Components/         # 结构件 (Structural Components)
+├── 模板_Templates/                           # 统一的数据转化标准 Markdown 模板 (Standardized Markdown Templates)
+│   ├── 硅基单管转换模板_IGBT_Discrete_Template.md
+│   ├── 硅基工业模块模板_Industrial_Module_Si_Template.md
+│   └── IPM智能功率模块模板_IPM_Template.md
 ├── LICENSE                        # 开源协议 (CC-BY-4.0 License)
 └── README.md                      # 社区主页导航 (Community Homepage)
 ```
@@ -100,7 +103,7 @@
 无论是修补了一个参数错漏，还是帮社区搬运、翻译了新的芯片型号，霸晶芯科和整个社区都无比欢迎你的加入！
 
 ### 快速开始 (Quick Start)
-1. **查阅模板**：进入 `templates/` 目录，查看对应器件的标准化 Markdown 编写规范。
+1. **查阅模板**：进入 `模板_Templates/` 目录，查看对应器件的标准化 Markdown 编写规范。
 2. **认领型号**：在 Issue 列表中查看“型号认领区”，避免多人重复转换同一款芯片。
 3. **提交 PR**：转换完成后，按照对应的分类目录提交 Pull Request，霸晶芯科的技术团队会第一时间进行 Review 并合并。
 
