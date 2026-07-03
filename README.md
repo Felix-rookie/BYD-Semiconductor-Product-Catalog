@@ -104,7 +104,7 @@
 
 ### 快速开始 (Quick Start)
 1. **查阅模板**：进入 `模板_Templates/` 目录，查看对应器件的标准化 Markdown 编写规范。
-2. **认领型号**：在 Issue 列表中查看“型号认领区”，避免多人重复转换同一款芯片。
+2. **认领型号**：在 [型号认领区](https://github.com/Felix-rookie/BYD-Semiconductor-Product-Catalog/issues/1) 查看并评论认领，避免多人重复转换同一款芯片。
 3. **提交 PR**：转换完成后，按照对应的分类目录提交 Pull Request，霸晶芯科的技术团队会第一时间进行 Review 并合并。
 
 > 💡 **效率工具推荐 (Recommended Tools)**：建议使用 MinerU 或 Marker 等开源工具对原始 PDF 进行高效的表格识别，再利用大模型进行格式校验，可极大提升数据迁移效率。
