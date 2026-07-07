@@ -1,7 +1,7 @@
 # 比亚迪半导体 (BYD) 车规级 Full-Bridge IGBT 模块 - BG600F08B14L5
 
 [![Standard](https://img.shields.io/badge/Standard-AEC--Q101-red.svg)](https://www.aecouncil.com/)
-[![Package](https://img.shields.io/badge/Package-V-305-orange.svg)]()
+[![Package](https://img.shields.io/badge/Package-V--305-orange.svg)]()
 [![Status](https://img.shields.io/badge/Status-Verified-brightgreen.svg)]()
 
 本页面由比亚迪半导体核心代理商——**深圳市霸晶芯科实业发展有限公司（霸晶芯科）**专业技术团队进行结构化转换与合规性校验。
