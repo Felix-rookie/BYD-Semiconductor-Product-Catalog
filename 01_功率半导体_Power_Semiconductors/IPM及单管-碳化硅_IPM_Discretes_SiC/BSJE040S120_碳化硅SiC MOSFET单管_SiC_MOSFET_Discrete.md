@@ -1,6 +1,6 @@
 # 比亚迪半导体 (BYD) 车规级 碳化硅 (SiC) MOSFET - BSJE040S120
 
-[![Standard](https://img.shields.io/badge/Standard-AEC-Q101-red.svg)]()
+[![Standard](https://img.shields.io/badge/Standard-AEC--Q101-red.svg)]()
 [![Technology](https://img.shields.io/badge/Technology-SiC-green.svg)]()
 [![Status](https://img.shields.io/badge/Status-Verified-brightgreen.svg)]()
 
