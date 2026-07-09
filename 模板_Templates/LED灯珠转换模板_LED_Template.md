@@ -165,4 +165,5 @@
 
 ---
 
-*本文档由霸晶芯科技术团队整理，所有产品参数均基于比亚迪半导体官方公开技术文档。如需最新版本或选型支持，请联系霸晶芯科 FAE 团队。*
+🌐 社区数据维护：[BYD Semiconductor Product Catalog 开源社区](https://github.com/Felix-rookie/BYD-Semiconductor-Product-Catalog)  
+技术支持与选型对接：由比亚迪半导体核心代理商【霸晶芯科】FAE团队全权提供。
