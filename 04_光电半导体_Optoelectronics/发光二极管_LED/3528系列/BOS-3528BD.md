@@ -9,22 +9,22 @@
 
 ## 📌 产品概述 (Product Overview)
 
-**BOS-3528BD** (采用SMD（PLCC-2）封装的紧凑型SMD LED)，采用 3.5×2.8×1.9mm SMD（PLCC-2） 封装。Iceland 发光，120° 视角，适用于 汽车照明、商业照明、信号灯、指示灯等应用场景。
+**BOS-3528BD** (采用PLCC-2封装的紧凑型SMD LED)，采用 3.5×2.8×1.9mm PLCC-2 封装。冰蓝色 发光，120° 视角，适用于 汽车仪表盘、指示灯、背光照明等应用场景。
 
 ### 🌟 核心特性 (Features)
 * 封装尺寸：3.5×2.8×1.9 mm
-* 发光颜色：Iceland
+* 发光颜色：冰蓝色
 * 发光角度：120°
-* 芯片材料：—
-* 胶体类型：Diffused（扩散型）
+* 芯片材料：InGaN
+* 胶体类型：Aqua Green Diffused（水绿扩散）
 * 符合RoHS标准：环保无铅设计
 
 ### 🚗 典型应用 (Applications)
-* Automotive Lighting
-* Commercial use
-* Advertising Signs
-* Sign and Signals
-* Status indicators
+* 汽车照明
+* 商业照明
+* 广告标识
+* 信号灯
+* 状态指示灯
 
 ---
 
@@ -74,18 +74,40 @@
 | 色坐标 y | y | IF=1mA | — | — | — | — |
 | 反向电流 | IR | VR=5V | — | — | 10 | μA |
 
-### 分级参数 (Rank Limits)
+### 分档参数 (Binning Information)
 
-| 分档项目 | 代码 | 最小值 | 最大值 | 单位 |
-| :--- | :---: | :---: | :---: | :---: |
-| 亮度分档 | — | — | 70 | mcd |
+#### 电压档 (VF Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| J | 2.5 | 2.6 | V |
+| K | 2.6 | 2.7 | V |
+| L | 2.7 | 2.8 | V |
+
+测试条件：IF = 1 mA
+
+#### 亮度档 (Luminous Intensity / Flux Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| 3E | 28 | 45 | lm |
+| 3F | 45 | 72 | lm |
+| 3G | 72 | 113 | lm |
+
+测试条件：IF = 1 mA
+
+#### 色度档 (Chromaticity / Color Rank)
+
+| 色区代码 (Rank) | x1 | y1 | x2 | y2 | x3 | y3 | x4 | y4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | — | — | — | — | — | — | — |
 
 ---
 
 ## 📐 封装外形尺寸 (Package Outline Dimensions)
 
 - 外形尺寸：3.5 × 2.8 × 1.9 mm
-- 封装形式：SMD（PLCC-2）
+- 封装形式：PLCC-2
 - 公差：± 0.2 mm（除非另有说明）
 
 ### 引脚定义 (Pin Definition)

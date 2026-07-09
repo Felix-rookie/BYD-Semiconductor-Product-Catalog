@@ -9,7 +9,7 @@
 
 ## 📌 产品概述 (Product Overview)
 
-**BOF-2016BC-DMC** (采用陶瓷基板(Ceramic Substrate)工艺的高功率SMD LED)，采用 2.04×1.64×0.85mm SMD（陶瓷基板 Ceramic Substrate） 封装。蓝色 发光，140° 视角，适用于 汽车照明、信号灯、指示灯等对可靠性要求极高的应用场景。
+**BOF-2016BC-DMC** (采用陶瓷基板(Ceramic Substrate)工艺的高功率SMD LED)，采用 2.04×1.64×0.85mm PLCC-2（陶瓷基板 Ceramic Substrate） 封装。蓝色 发光，140° 视角，适用于 汽车仪表盘、指示灯、背光照明等应用场景。
 
 ### 🌟 核心特性 (Features)
 * 封装尺寸：2.04×1.64×0.85 mm
@@ -20,8 +20,8 @@
 * 符合RoHS标准：环保无铅设计
 
 ### 🚗 典型应用 (Applications)
-* Automotive light
-* Day time running light
+* 汽车照明
+* 日行灯
 
 ---
 
@@ -71,18 +71,45 @@
 | 色坐标 y | y | IF=150mA | — | — | — | — |
 | 反向电流 | IR | VR=5V | — | — | 10 | μA |
 
-### 分级参数 (Rank Limits)
+### 分档参数 (Binning Information)
 
-| 分档项目 | 代码 | 最小值 | 最大值 | 单位 |
-| :--- | :---: | :---: | :---: | :---: |
-| 亮度分档 | — | — | — | mcd |
+#### 电压档 (VF Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| M | 2.8 | 2.9 | V |
+| N | 2.9 | 3.0 | V |
+| O | 3.0 | 3.1 | V |
+| P | 3.1 | 3.2 | V |
+| Q | 3.2 | 3.3 | V |
+| D | 449 | 452 | V |
+| E | 452 | 455 | V |
+| F | 455 | 458 | V |
+
+测试条件：IF = 150 mA
+
+#### 亮度档 (Luminous Intensity / Flux Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| C | 11 | 15 | mcd |
+| D | 15 | 20 | mcd |
+| E | 20 | 26 | mcd |
+
+测试条件：IF = 150 mA
+
+#### 色度档 (Chromaticity / Color Rank)
+
+| 色区代码 (Rank) | x1 | y1 | x2 | y2 | x3 | y3 | x4 | y4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | — | — | — | — | — | — | — |
 
 ---
 
 ## 📐 封装外形尺寸 (Package Outline Dimensions)
 
 - 外形尺寸：2.04 × 1.64 × 0.85 mm
-- 封装形式：SMD（陶瓷基板 Ceramic Substrate）
+- 封装形式：PLCC-2（陶瓷基板 Ceramic Substrate）
 - 公差：± 0.2 mm（除非另有说明）
 
 ### 引脚定义 (Pin Definition)

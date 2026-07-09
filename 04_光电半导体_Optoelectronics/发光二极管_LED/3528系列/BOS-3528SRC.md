@@ -9,7 +9,7 @@
 
 ## 📌 产品概述 (Product Overview)
 
-**BOS-3528SRC** (采用SMD（PLCC-2）封装的紧凑型SMD LED)，采用 3.5×2.8×1.9mm SMD（PLCC-2） 封装。Super 发光，120° 视角，适用于 汽车照明、商业照明、信号灯、指示灯等应用场景。
+**BOS-3528SRC** (采用PLCC-2封装的紧凑型SMD LED)，采用 3.5×2.8×1.9mm PLCC-2 封装。Super 发光，120° 视角，适用于 汽车仪表盘、指示灯、背光照明等应用场景。
 
 ### 🌟 核心特性 (Features)
 * 封装尺寸：3.5×2.8×1.9 mm
@@ -20,11 +20,11 @@
 * 符合RoHS标准：环保无铅设计
 
 ### 🚗 典型应用 (Applications)
-* Automotive Lighting
-* Commercial use
-* Advertising Signs
-* Sign and Signals
-* Status indicators
+* 汽车照明
+* 商业照明
+* 广告标识
+* 信号灯
+* 状态指示灯
 
 ---
 
@@ -75,18 +75,40 @@
 | 主波长 | Wd | IF=20mA | 627 | 632 | 636 | nm |
 | 反向电流 | IR | VR=10V | — | — | 1 | μA |
 
-### 分级参数 (Rank Limits)
+### 分档参数 (Binning Information)
 
-| 分档项目 | 代码 | 最小值 | 最大值 | 单位 |
-| :--- | :---: | :---: | :---: | :---: |
-| 波长分档 | — | 627 | 636 | nm |
+#### 电压档 (VF Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| D | 1.9 | 2.0 | V |
+| E | 2.0 | 2.1 | V |
+| F | 2.1 | 2.2 | V |
+
+测试条件：IF = 20 mA
+
+#### 亮度档 (Luminous Intensity / Flux Rank)
+
+| 代码 (Code) | 最小值 (Min) | 最大值 (Max) | 单位 |
+| :---: | :---: | :---: | :---: |
+| 3N | 720 | 850 | lm |
+| 3O | 850 | 1000 | lm |
+| 3P | 1000 | 1200 | lm |
+
+测试条件：IF = 20 mA
+
+#### 色度档 (Chromaticity / Color Rank)
+
+| 色区代码 (Rank) | x1 | y1 | x2 | y2 | x3 | y3 | x4 | y4 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| — | — | — | — | — | — | — | — | — |
 
 ---
 
 ## 📐 封装外形尺寸 (Package Outline Dimensions)
 
 - 外形尺寸：3.5 × 2.8 × 1.9 mm
-- 封装形式：SMD（PLCC-2）
+- 封装形式：PLCC-2
 - 公差：± 0.2 mm（除非另有说明）
 
 ### 引脚定义 (Pin Definition)
